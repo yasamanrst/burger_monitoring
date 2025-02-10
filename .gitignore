@@ -1,0 +1,50 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment
+venv/
+.env/
+*.env
+
+# Ignore PyCharm IDE settings
+.idea/
+*.iml
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+.DS_Store
+
+# Ignore compiled Python files
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore system-specific files
+Thumbs.db
+desktop.ini
+
+# Ignore build and distribution directories
+build/
+dist/
+*.egg-info/
+
+# Ignore Jupyter Notebook checkpoints (if using Jupyter)
+.ipynb_checkpoints/
+
+# Ignore test coverage and reports
+coverage/
+*.coverage
+nosetests.xml
+*.mo
+*.pot
+
+# Ignore database and cache files
+*.sqlite3
+*.db
+
+# Ignore Git credentials or SSH keys (DO NOT SHARE THESE)
+*.pem
+*.key
